@@ -1,0 +1,4 @@
+ Factory DP de birden fazla interface oluşturulması gerekirse
+ if-else yapılarının çokluğundan kurtulmak için dizayn edilmiştir
+Super-factory gibi çalışma mantığı vardır, Faktory lerin Factory'si de denilebilir, Burada oluşturulan
+interface sınıfı yeni bir factory oluşturma görevini üstlenir
