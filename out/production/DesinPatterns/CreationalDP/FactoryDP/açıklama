@@ -1,13 +1,6 @@
-faydası ise, domain bilgisi olmaksızın bir nesneyi doğru bir biçimde üretmemizi sağlar.
-Buna bir örnek verecek olursak, tetris oyununda iki tip oynama seçeneği vardır.
-Bunlar A ve B dir. A seçeneğinde I, J, L, O, S, T ve Z şekilleri mevcuttur.
-Bunu kolay seçenek olarak düşünebilirsiniz. Diğer seçenekte ise bunlara ek olarak
-Z(farklı bir Z), +(artı) ve U şekilleri vardır. Oyunda rastgele bir şekil
-üretilmesini istediğimizde bunun A seçeneğinde mi yoksa B seçeneğinde mi olduğunun
- bizim için bir önemi yoktur. getShape(Gamedifficulty.HARD) metodu çağırıldığında
- B modundan bir şekil döndürür. getShape(Gamedifficulty.EASY) motodu çağırıldığında
- A modundan bir şekil döndürür.
+1.  faydası ise, domain bilgisi olmaksızın bir nesneyi doğru bir biçimde
+        üretmemizi sağlar.
 
-
- // araç Fabrikalarını düşünün, bayilerine diyor ki sen bana kaç tane istediğini söyle
- ben sana göndereyim diyorlar, ekibi sana göndereyim , orada üretelim demiyorlar ...
+2.  araç Fabrikalarını düşünün, bayilerine diyor ki sen bana kaç tane istediğini
+        söyle ben sana göndereyim diyorlar, ekibi sana göndereyim ,
+        orada üretelim demiyorlar ...

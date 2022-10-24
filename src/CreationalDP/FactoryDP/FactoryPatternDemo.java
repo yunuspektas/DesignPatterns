@@ -3,7 +3,6 @@ package CreationalDP.FactoryDP;
 public class FactoryPatternDemo {
     public static void main(String[] args) {
 
-
         Circle circle1 = new Circle();
         circle1.draw();
         Square square1 = new Square();
@@ -16,8 +15,10 @@ public class FactoryPatternDemo {
 
         ShapeFactory shapeFactory = new ShapeFactory(); // Factory üretimi
         Shape shape1 = shapeFactory.getShape("CIRCLE");
-        // Açıklama : burada ben Aracı olan Şekil üretme Fabrikasına sadece bana bir daire üret demiş oluyorum
-        // ve herhangi bir yerde new yazmama gerek kalmıyor. Circle sınıfının varlığından dahi haberim yok
+        // Açıklama : burada ben aracı olan Şekil üretme Fabrikasına sadece
+        //            bana bir daire üret demiş oluyorum ve herhangi
+        //            bir yerde new yazmama gerek kalmıyor. Circle sınıfının
+        //            varlığından dahi haberim yok
         shape1.draw();
         Shape shape2 = shapeFactory.getShape("RECTANGLE");
         shape2.draw();

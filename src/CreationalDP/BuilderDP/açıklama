@@ -1,0 +1,5 @@
+Bir constructor a çok fazla argüman göndermemiz gerektiğinde kullanılır
+Bir obje initialize ederken bütün parametreleri göndermek istemediğimizde kullanılır, mesela
+    10 parametreli bir objeyi üretirken sadece 2 parametresi ile oluşturulmasını istersem ?
+    ilk etapda opsiyonel parametrelere null verilebilir ama bu durumda da 8 tane null dememiz
+    gerekecek.

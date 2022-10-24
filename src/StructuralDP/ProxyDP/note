@@ -1,0 +1,20 @@
+==> içinde 100 lerce öğrenci bilgilerinin olduğu bir sınıf düşünelim,
+        bu sınıf üzerinden herhangi bir işlem yapmaya çalışıldığında
+        sınıfın büyüklüğünden dolayı "performans problemlerine" sebeb
+        olacak işte bu gibi sorunlara çözüm olarak "proxy taasarım"
+        deseni geliştirilmiş.
+
+==> Kısaca : asıl işi yapan nesne yerine "Vekil nesne" kullanılmasıdır.
+
+==> Pattern olarak bir objeyi temsil eden başka bir objeden bahsediyoruz.
+Kullanım senaryolarından biri için de, bir classımız ve bunun bir nesnesi
+olduğunu varsayalım. Bu nesne bir okula ait tüm sınıf öğrencilerinin tüm
+bilgilerini tutuyor olsun. Aldıkları dersleri, derslerden aldıkları puanları,
+kaldıkları dersleri, isimlerini, soy isimlerini, doğum tarihlerini, ailelerinin
+isim, soy isim ve kimlik bilgilerini ve her bir işlem yaptığımızda bu okul
+öğrencilerini bir tur dönüyor ve gerekli bilgileri içerisinde barındırıyor
+olsun. Ancak bizim client olarak tüm bu bilgilerden ziyade belli başlı
+sınıfların belli başlı özelliklerine ve bilgilerine ihtiyacımız olabilir.
+Bu durumda proxy class oluşturup sadece belli başlı metotlara ve üyelere
+erişim izni verebiliriz ve client bu nesneyi kopyaladığında orjinal nesneyi
+kopyalamasına kıyasla çok daha az bir maliyet ile işi halletmiş olur.
