@@ -9,4 +9,5 @@ public class Iphone11 extends PhoneDecorator {
     public String getName() {
         return super.getName() + " 11";
     }
+    // baz özellikteki camera ile aynı olacağı için onu eklemiyorum
 }

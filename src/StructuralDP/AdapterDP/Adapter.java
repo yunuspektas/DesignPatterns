@@ -43,7 +43,7 @@ public class Adapter {
         UserRepository userRepository; // yeni Repo
         OldUserService oldUserService; // eski service
 // eski sisttemde kalan kullanıcıda email bilgisi olmadığı için
-        // id üzerinden bulunması gerekiyor, bunu içinde eski sitem
+        // id üzerinden bulunması gerekiyor, bunu içinde eski sistemin
 // Servis katmanı kullanılarak, yeni sisteme adapte ediliyor
         @Override
         public User getUser(String email) {
@@ -53,17 +53,17 @@ public class Adapter {
             user.lastname = oldUser.lastname;
             return user;
         }
-    }
+    } // UserServiceAdapter sonu
 
     public void adapterDemo(){ // main için gerekli method
         UserService userService = new UserServiceAdapter();
         User user = userService.getUser("email@email.com");
         System.out.println(user);
-    }
+    } // adapterDemo Sonu
 // main
     public static void main(String[] args) {
         Adapter adapter = new Adapter();
         adapter.adapterDemo();
-    }
+    } // main classı sonu
 
 }

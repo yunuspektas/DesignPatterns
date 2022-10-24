@@ -12,7 +12,7 @@ public class CustomEncryptor {
 
         SHAEncryptor shaEncryptor = new SHAEncryptor();
         shaEncryptor.encrypt(text, "KEY", true);
-//******* kötü yol bitti
+        //******* kötü yol bitti
 
         EncryptorFacade encryptorFacade = new EncryptorFacade();
         encryptorFacade.encrypt(text, EncryptorFacade.EncType.SHA);

@@ -5,7 +5,7 @@ public class PhoneDecorator implements Phone {
     protected Phone basicPhone;
 
 //**************** Constructor   *********
-    public PhoneDecorator(Phone basicPhone) {
+    public PhoneDecorator(IPhone basicPhone) {
         this.basicPhone = basicPhone;
     }
 

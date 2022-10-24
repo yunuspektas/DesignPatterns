@@ -1,7 +1,7 @@
 package StructuralDP.DecoratorDP;
 
 public class Iphone11ProMax extends Iphone11Pro {
-    public Iphone11ProMax(Phone basicPhone) {
+    public Iphone11ProMax(IPhone basicPhone) {
         super(basicPhone);
     }
     @Override
