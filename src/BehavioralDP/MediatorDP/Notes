@@ -3,5 +3,5 @@ Kule ile irtibata geçmesi gibi yapılarda kullanılabilir, Veya kırmızı ış
 da araçların birbirlerini takip etmesine gerek kalmadan sadece trafik lambasına göre
 hareket etmeleri gibi..
 
-    Aslında biz bunu Rest Mimaride kullanıyoruz: şu end-point ile gelirsen bu metodu
-çalıştır gibi.
+    Aslında biz bunu Spring-Boot ile Rest Mimaride kullanıyoruz: şu end-point ile
+gelirsen bu metodu çalıştır gibi...
