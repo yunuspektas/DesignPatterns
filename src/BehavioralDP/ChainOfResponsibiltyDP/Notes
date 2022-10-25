@@ -1,0 +1,4 @@
+    Senaryo : Bankaya gelen müşteri kredi çekmek ister,
+memur, müdür ve genel müdürün belli miktarlarda kredi verme yetkisi bulunmaktadır,
+bu yetki dağılımını tek class içinde değilde yetki zinciri şeklinme problemin çözümünü
+sağlayan design patterndir
