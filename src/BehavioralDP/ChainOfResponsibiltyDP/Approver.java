@@ -1,5 +1,6 @@
 package BehavioralDP.ChainOfResponsibiltyDP;
 // yetki dağılımı için ana interface
+
 public abstract class Approver {
    Approver chief;
 

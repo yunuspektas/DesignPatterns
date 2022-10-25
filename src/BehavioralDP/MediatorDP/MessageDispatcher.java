@@ -3,7 +3,7 @@ package BehavioralDP.MediatorDP;
 import java.util.HashMap;
 import java.util.Map;
 
-// mesaj dağıtım işini yapan class
+// mesaj dağıtım işini yapan class, Yönlendirme işini yapan
 class MessageDispatcher implements Dispatcher{
     Map<String, Actor> registeredActors = new HashMap<>();
 

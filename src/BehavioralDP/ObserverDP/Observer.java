@@ -17,8 +17,13 @@ public class Observer {
         agency.setNews("news 2");
         agency.setNews("news 3");
 
+        System.out.println("channel1 NEWS");
         channel1.printNews();
+        System.out.println("*************");
+        System.out.println("channel2 NEWS");
         channel2.printNews();
+        System.out.println("channel3 NEWS");
+        System.out.println("*************");
         channel3.printNews();
     }
 
